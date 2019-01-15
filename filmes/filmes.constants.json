@@ -1,0 +1,53 @@
+{
+  "error" : {   
+    "msg_bad_request":{
+      "status": 400,
+      "message" : {
+        "result" : "error",
+        "message": "Ops, ocorreu um erro"
+      }
+    },
+
+    "msg_locacao_nao_alterada" : {
+      "status": 404,
+      "message" : {
+        "result" : "error",
+        "message": "Locação não alterada"
+      }
+    },
+
+    "msg_filme_nao_existente" : {
+      "status": 404,
+      "message" : {
+        "result" : "error",
+        "message": "Filme ou usuário não existentes"
+      }
+    },
+
+    "msg_filme_ja_reservado" : {
+      "status": 404,
+      "message" : {
+        "result" : "error",
+        "message": "Filme já reservado"
+      }
+    }
+  },
+
+  "success" : {   
+    "msg_filme_locado" : {
+      "status": 200,
+      "message" : {
+        "result" : "success",
+        "message": "Filme locado"
+      }
+    }, 
+
+    "msg_filme_devolvido" : {
+      "status": 200,
+      "message" : {
+        "result" : "success",
+        "message": "Filme devolvido"
+      }
+    }
+  }
+}

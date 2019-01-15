@@ -1,0 +1,30 @@
+{
+  "name": "node-mysql-exercicio",
+  "version": "1.0.0",
+  "description": "API para exercicio node",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guilhermewm/"
+  },
+  "keywords": [],
+  "author": "Guilherme Webber Mendes",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "helmet": "^3.6.0",
+    "jsonwebtoken": "^8.4.0",
+    "md5": "^2.2.1",
+    "method-override": "^2.3.8",
+    "mm-node-logger": "0.0.1",
+    "morgan": "^1.7.0",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.9.2"
+  }
+}

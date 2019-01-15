@@ -1,0 +1,53 @@
+{
+   "error" : {      
+      "msg_bad_request":{
+        "status": 400,
+        "message" : {
+          "result" : "error",
+          "message": "Ops, ocorreu um erro"
+        }
+      },
+
+      "msg_usuario_existente":{
+        "status": 409,
+        "message" : {
+          "result" : "error",
+          "message": "Usuário já existente"
+        }
+      },
+
+      "msg_email_e_senha" : {
+        "status": 404,
+        "message" : {
+          "result" : "error",
+          "message": "Email e senha não correspondem"
+        }
+      }
+   },
+
+   "success" : {
+     "msg_usuario_cadastrado" : {
+       "status": 201,
+       "message" : {
+         "result" : "success",
+         "message": "Usuário cadastrado"
+       }
+     },
+
+     "msg_usuario_logado" : {
+       "status": 200,
+       "message" : {
+         "result" : "success",
+         "message": "Usuário logado"
+       }
+     },
+
+     "msg_deslogado" : {
+       "status": 200,
+       "message" : {
+         "result" : "success",
+         "message": "Usuário deslogado"
+       }
+     }
+   }
+}
